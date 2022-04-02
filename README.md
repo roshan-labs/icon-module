@@ -1,3 +1,3 @@
-# @roshan-labs/nuxt-icon-module
+# @roshan-labs/icon-module
 
 图标模块
