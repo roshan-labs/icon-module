@@ -4,6 +4,6 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import IconSmile from '~icons/twemoji/beaming-face-with-smiling-eyes'
 </script>
