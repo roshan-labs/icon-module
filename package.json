@@ -25,6 +25,9 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
     "unplugin-icons": "^0.14.1"
