@@ -1,9 +1,9 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt'
 
-import IconsModule from '..'
+import Module from '..'
 
 export default defineNuxtConfig({
-  modules: [IconsModule],
+  modules: [Module],
   icons: {
     autoInstall: true,
   },

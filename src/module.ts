@@ -12,11 +12,13 @@ export default defineNuxtModule<ModuleOptions>({
     version,
     configKey: 'icons',
   },
-  setup(options) {
+  setup(options, nuxt) {
     // Install vite plugin
     addVitePlugin(icons.vite(options))
 
-    // Install webpack plugin
-    addWebpackPlugin(icons.webpack(options))
+    if (nuxt.options.builder === 'webpack') {
+      // Install webpack plugin
+      addWebpackPlugin(icons.webpack(options))
+    }
   },
 })
