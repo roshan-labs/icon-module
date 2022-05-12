@@ -1,6 +1,6 @@
 {
   "name": "@roshan-labs/icon-module",
-  "version": "1.0.1-beta.0",
+  "version": "0.1.0",
   "type": "module",
   "exports": {
     ".": {
