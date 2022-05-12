@@ -1,5 +1,8 @@
 # @roshan-labs/icon-module
 
+[![npm (scoped)](https://img.shields.io/npm/v/@roshan-labs/icon-module)](https://www.npmjs.com/package/@roshan-labs/icon-module)
+![GitHub](https://img.shields.io/github/license/roshan-labs/icon-module)
+
 Icon module for Nuxt, based on [unplugin-icons](https://github.com/antfu/unplugin-icons).
 
 ## Install

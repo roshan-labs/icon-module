@@ -13,6 +13,11 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "icons",
+    "nuxt-module",
+    "nuxt3"
+  ],
   "scripts": {
     "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
