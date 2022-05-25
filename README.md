@@ -26,6 +26,16 @@ export default defineNuxtConfig({
 })
 ```
 
+Typescript project
+
+```json
+{
+  "compilerOptions": {
+    "types": ["unplugin-icons/types/vue"]
+  }
+}
+```
+
 ## Options
 
 View [unplugin-icons](https://github.com/antfu/unplugin-icons) options.
